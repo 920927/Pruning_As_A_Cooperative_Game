@@ -1,0 +1,18 @@
+#!/bin/bash
+export CUDA_VISIBLE_DEVICES=0
+
+run_command () {
+    mkdir -p "results/$2/ppl"
+    python eval_ppl.py --base_model $1 --output_dir results/$2/ppl $3
+
+    mkdir -p "results/$2"
+    cd lm-evaluation-harness  
+    lm_eval --model hf \
+        --model_args pretrained=$1 \
+        --tasks lambada_openai \
+        --device cuda --output_csv ../results/$2/zeroshot_acc_2.csv
+    cd -  
+}
+
+# run_command "Llama-2-7b-hf" "Llama-2-7b-hf" "--use_bfloat"
+
