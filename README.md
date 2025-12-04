@@ -7,4 +7,12 @@
 * We validate our method on language modeling tasks and zero-shot benchmarks, showing consistent improvements over strong pruning baselines across diverse architectures.
 
 
+## Installation
+  ```bash
+  conda create -n Shapley python=3.12
+  conda activate Shapley
+  pip install -r requirement.txt
+  ```
+
+
 
