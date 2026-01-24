@@ -15,4 +15,14 @@
   ```
 
 
+## Models we used in article:
+  | Source<br>Model | Pruning<br>Ratio | 🤗Hugging Face<br>Link 
+  |:---:|:---:|:---:|
+  | Llama-2-7B | 20%, 35% | [Llama-2-7B](https://huggingface.co/meta-llama/Llama-2-7b-hf) 
+  | Llama-2-13B | 20%, 35% | [Llama-2-13B](https://huggingface.co/meta-llama/Llama-2-13b-hf) 
+  | Llama-3-8B | 20%, 35% | [Llama-3-8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B) 
+  | Vicuna-v1.3-7B | 20%, 35% | [Vicuna-v1.3-7B ](https://huggingface.co/lmsys/vicuna-7b-v1.3) 
+  | Vicuna-v1.3-13B | 20%, 35% |[Vicuna-v1.3-7B ](https://huggingface.co/lmsys/vicuna-13b-v1.3) 
+
+
 
