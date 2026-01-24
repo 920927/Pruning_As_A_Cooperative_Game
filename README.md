@@ -30,6 +30,6 @@
 ## 1. Scripts of pruning method
 - To try our pruning method, use:
   ```bash
-  python SLM.py
+  python sharpley_agent_ppl.py
   ```
 
