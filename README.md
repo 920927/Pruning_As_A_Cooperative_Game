@@ -1,4 +1,4 @@
-# Pruning as a Cooperative Game: Surrogate-Assisted Layer Contribution Estimation for Large Language Models
+# Pruning as a Cooperative Game: Surrogate-Assisted Layer Contribution Estimation for Large Language Models [ICLR 2026]
 
 ![This image is not available for now.](assets/framework.png)
 
